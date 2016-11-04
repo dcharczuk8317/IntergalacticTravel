@@ -35,7 +35,7 @@
                                 </constraints>
                                 <state key="normal" title="Blue Star"/>
                                 <connections>
-                                    <segue destination="faU-zz-wl8" kind="show" id="fN1-IH-ZqS"/>
+                                    <segue destination="faU-zz-wl8" kind="show" identifier="blueStarSegue" id="fN1-IH-ZqS"/>
                                 </connections>
                             </button>
                         </subviews>
