@@ -19,6 +19,14 @@ class ViewController: UIViewController {
         let nextViewController = segue.destination as! StarViewController
         let button = sender as! UIButton
         nextViewController.title = button.currentTitle
+        if segue.identifier == "blueStarSegue"
+        {
+            nextViewController.isBlueStar = true
+        }
+        else
+        {
+            nextViewController.isBlueStar = false
+        }
     }
 }
 
